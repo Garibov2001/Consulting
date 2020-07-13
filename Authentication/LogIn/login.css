@@ -1,0 +1,55 @@
+
+
+/* ============================================================ */
+/*------------------------- Log in Main ---------------------- */
+/* ============================================================== */
+
+
+.container-log-in{
+    width: 35%;
+    margin: 0 auto;    
+}
+
+
+.auth-logo-wrapper img{
+    width: 100px;
+}
+
+/* Helelik : */
+.auth-header-text-box h1{
+    margin-bottom: 20px;
+}
+
+.auth-header-text-box span{
+    /* margin-top: 20px;   islemir */    
+    color: #202124;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.log-in-panel {
+    margin-bottom: 60px;
+}
+
+
+
+
+
+/* ============================================================ */
+/*------------------------- Log in Footer ---------------------- */
+/* ============================================================== */
+
+.log-in-footer{
+    box-sizing: border-box;
+    padding: 20px 0px;
+}
+
+.log-in-footer-language span,i{
+    color: black;
+}
+
+
+.log-in-footer-help li a{
+    color: black;
+    margin-left: 15px;
+}

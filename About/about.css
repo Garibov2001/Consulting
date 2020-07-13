@@ -1,0 +1,225 @@
+/* Commons */
+
+.about-content-text-style{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(61, 60, 60);
+    line-height: 23px;
+    font-size: 16px;
+
+}
+
+/* ============================================================ */
+/*------------------------- Header ------------------- */
+/* ============================================================== */
+#nav-bar{  
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    padding: 20px 0px;
+}
+
+.bg-color-nav-bar{   
+    background-color: #24252A;    
+}
+
+.nav-search-bar-wrapper{ 
+    position: relative;
+    font-weight: 400;
+}
+
+.nav-search-bar-wrapper input{ 
+    box-sizing: border-box;
+    width: 500px;
+    padding: 9px 0px 9px 15px;
+    color: #24252A;
+    border: 1px solid ;
+    border-radius: 30px;
+    outline: none;
+}
+
+.btn-search{   
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    width: 35px;
+    height: 35px;            
+    background-color: transparent;
+    color: #24252A;
+}
+
+.btn-search i{
+    font-size: 18px;
+    color: rgb(117, 117, 117);       
+}
+
+
+.nav-authentication-elements li a button{
+    padding: 9px 15px;
+}
+
+.header-slider{
+    width: 100%;
+    height: 500px;    
+    background-image: url('../images/bg-image2.png');
+    background-position: center;
+}
+
+.header-slider-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 29, 56, 0.3);
+}
+
+.slider-text-box{
+    transform: translateY(-10px);
+}
+
+.slider-text-box h1{
+    font-size: 60px;  
+    letter-spacing: 2px;
+    line-height: 76px;  
+}
+
+/* Commons for "Header" */
+
+.nav-authentication-elements li a{
+    margin-left: 20px;  /*Cunki sagda dayaniblar simmetriyani pozmamaq ucun*/
+    font-weight: 500;
+}
+
+
+/* ============================================================ */
+/*--------------------------- History -------------------------- */
+/* ============================================================== */
+
+.history-text-wrapper{
+    width: 48%;
+}
+
+.history-image-wrapper{
+    width: 48%;
+}
+
+.history-image-wrapper img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* ============================================================ */
+/*--------------------------- Expert Team --------------------- */
+/* ============================================================== */
+
+
+.expert-team-title-wrapper h1{
+    font-size: 45px; 
+    color: #001D38;
+    margin: 50px 0px;  
+}
+
+/* Commons for "Expert Team" */
+
+.expert-team-member-info-box-image-wrapper{
+    margin-bottom: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.expert-team-member-info-box-image-wrapper img{  
+    object-fit: cover;  
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.expert-team-member-info-box-image-wrapper img:hover{
+    transform: scale(1.08);
+}
+
+.expert-team-member-info-box-contents-wrapper  h1{
+    font-size: 24px;
+    color: #2c2c2c;
+    margin-bottom: 15px;
+}
+
+.expert-team-member-info-box-contents-wrapper span{
+    font-size: 13px;
+    color: #2c2c2c;
+}
+
+.expert-team-member-info-box-social-links-wrapper li{
+    margin-top: 30px;
+}
+
+.expert-team-member-info-box-social-links-wrapper i{
+    font-size: 15px;
+    color: #c7c7c7;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.expert-team-member-info-box-social-links-wrapper i:hover{
+    color: #5db2ff;
+}
+
+
+/* ============================================================ */
+/*--------------------------- Testimonials--------------------- */
+/* ============================================================== */
+
+.testimonial-bg{    
+    background-image: url(https://colorlib.com/preview/theme/conbusi/img/banner/testmonial.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.testimonial-bg-overlay{
+    width: 100%;
+    height: 100%;    
+    background-color: rgba(0, 29, 56, 0.7);
+}
+
+.testimonial-wrapper{
+    padding: 100px 0px;
+}
+
+.testimonial-quote-image-wrapper{
+    margin-bottom: 20px;
+}
+
+.testimonial-quote-image-wrapper img{
+    object-fit: cover;
+}
+
+.testimonial-text-wrapper {
+    margin: 30px 0px;
+}
+
+.testimonial-text-wrapper  p{
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.testimonial-author-image-wrapper {
+    margin-bottom: 20px;
+}
+
+.testimonial-author-name-wrapper{
+    margin-bottom: 10px;
+}
+
+.testimonial-author-name-wrapper span{
+    font-weight: 500;
+}
+
+.testimonial-author-profession-wrapper span{
+    font-size: 13px;
+}
+
+
+/* ============================================================ */
+/*--------------------------  footer  ------------------------- */
+/* ============================================================ */
+
+/* From common */

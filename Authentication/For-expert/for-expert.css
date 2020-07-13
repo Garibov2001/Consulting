@@ -1,0 +1,140 @@
+
+
+/*  Left Side */
+
+.container-expert-user-register{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.expert-register-main-field-wrapper{
+    width: 48%;
+}
+
+.expert-reg-main-name{
+    width: 48%;
+}
+
+.expert-reg-main-last-name{
+    width: 48%;
+}
+
+
+.expert-reg-date-of-birth-wrapper{
+    margin: 10px 0px;
+}
+
+.expert-reg-date-box{
+    position: relative;
+    width: 20%;
+}
+
+.expert-reg-month-box{
+    position: relative;
+    width: 60%;
+}
+
+.expert-reg-year-box{
+    position: relative;
+    width: 20%;
+}
+
+.expert-reg-main-username-wrapper{
+    margin: 20px 0px;
+}
+
+
+.expert-reg-main-password{
+    width: 48%;
+}
+
+.expert-reg-main-confirm-password{
+    width: 48%;
+}
+
+.expert-reg-main-enter-wrapper{
+    margin-top: 40px;
+}
+
+
+/* Right Side */
+
+.expert-register-path-wrapper{
+    width: 48%;
+
+}
+
+.expert-reg-progress-content{
+    margin: 8px 0px;
+}
+
+.expert-reg-progress-content span{
+    color: black;
+}
+
+.expert-reg-progress-bullet{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #dfd7d7;
+    border-radius: 50%;
+    margin-right: 80px;
+}
+
+
+
+.expert-reg-progress-bullet i{
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%,-50%);    
+    font-size: 18px;
+    color: #dfd7d7;          
+}
+
+.expert-reg-progress-bullet::after{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    width: 65px;
+    height: 3px;
+    content:'';    
+    background-color: #dfd7d7;
+}
+
+.expert-register-path-wrapper img{
+    width: 400px;
+    border-radius: 5px;
+}
+
+/* Hocam, finished olanda gelecek olanlar:  (Example ucun)  */
+
+.exp-reg-finished{
+    background-color: #4CB71A;    
+}
+
+.exp-reg-finished::after{
+    background-color: #4CB71A;
+}
+
+.exp-reg-finished i{
+    color: white;
+}
+
+.last-node::after{
+    display: none;
+}
+
+
+/* Commons "for expert" */
+
+.expert-reg-date-of-birth-drop-down-icon{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+
+
+

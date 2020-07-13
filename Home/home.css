@@ -1,0 +1,342 @@
+
+/* ============================================================ */
+/*------------------------- Header ------------------- */
+/* ============================================================== */
+#nav-bar{  
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    padding: 20px 0px;
+}
+
+.bg-color-nav-bar{   
+    background-color: #24252A;    
+}
+
+.nav-search-bar-wrapper{ 
+    position: relative;
+    font-weight: 400;
+}
+
+.nav-search-bar-wrapper input{ 
+    box-sizing: border-box;
+    width: 500px;
+    padding: 9px 0px 9px 15px;
+    color: #24252A;
+    border: 1px solid ;
+    border-radius: 30px;
+    outline: none;
+}
+
+.btn-search{   
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    width: 35px;
+    height: 35px;            
+    background-color: transparent;
+    color: #24252A;
+}
+
+.btn-search i{
+    font-size: 18px;
+    color: rgb(117, 117, 117);       
+}
+
+
+.nav-authentication-elements li a button{
+    padding: 9px 15px;
+}
+
+.header-slider{
+    width: 100%;
+    height: 700px;    
+    background-image: url('../images/bg-image2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.header-slider-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 29, 56, 0.3);
+}
+
+.slider-text-box{
+    transform: translateY(-10px);
+}
+
+.slider-text-box h1{
+    font-size: 60px;  
+    letter-spacing: 2px;
+    line-height: 76px;  
+}
+
+/* Commons for "Header" */
+
+.nav-authentication-elements li a{
+    margin-left: 20px;  /*Cunki sagda dayaniblar simmetriyani pozmamaq ucun*/
+    font-weight: 500;
+}
+
+
+/* ============================================================ */
+/*------------------------- Services ----------------------- */
+/* ============================================================ */
+
+.services-title-box h1{
+    font-size: 45px;
+    line-height: 72px;   
+    color: #001D38;
+    padding: 30px;
+    margin: 40px 0px;
+}
+
+
+.bg-color-marketing-seo-agency{
+    background: #0181f5;
+}
+
+.bg-color-startup-agency{
+    background: #00d363;
+}
+
+.bg-color-corporate-business{
+    background: #fd8e5e;
+}
+
+.bg-color-finance-solution{
+    background: #615cfd;
+}
+
+.bg-color-food-restaurant{
+    background: #0181f5;
+}
+
+.bg-color-travel-agency{
+    background: #615cfd;
+}
+
+/* -- Commons for " Services" -- */
+
+.service-box{
+    width: 25%;
+    min-height: 200px;
+    padding: 33px;    
+    margin: 15px;
+    border: 1px solid #E8E8E8;
+    transition: 0.3s;
+}
+
+.service-box:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.09);
+    border-color: transparent;
+}
+
+.serivce-box-image-circle{
+    position: relative;
+    width: 98px;
+    height: 98px;
+    margin: 0 auto;
+    border-radius: 50%;        
+}
+
+.serivce-box-image-circle img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.service-box-info-wrapper  h1{
+    font-size: 22px;
+    color: #001D38;
+    margin: 35px 0px 23px 0px;
+}
+
+.service-box-info-wrapper p{
+    font-weight: 400;
+    color: #727272;
+    line-height: 28px;
+    margin-bottom: 6px;
+}
+
+.service-box-info-wrapper a{
+    font-weight: 400;
+    color: #5DB2FF;
+    line-height: 22.5px;
+}
+
+
+/* ============================================================ */
+/*------------------- Why our consulting? (woc)  -------------- */
+/* ============================================================ */
+
+
+.woc-left-part-wrapper{
+    width: 48%;
+}
+
+.woc-left-part-info-box h1{
+    font-size: 45px; 
+    color: #001D38;
+    margin-bottom: 20px;
+}
+
+.woc-left-part-info-box p{
+    font-weight: 400;
+    color: #727272;
+    line-height: 28px;
+    margin-bottom: 6px;
+}
+
+.woc-left-part-button-box button{
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px 40px;
+}
+
+.woc-right-part-wrapper{
+    width: 48%;
+}
+
+.woc-right-part-wrapper img{    
+    border-radius: 15px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ============================================================ */
+/*------------------- Statistics (stat)  -------------- */
+/* ============================================================ */
+
+
+.stat-bg-image{
+    background-image: url('https://colorlib.com/preview/theme/conbusi/img/about/counter.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.stat-bg-image-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 29, 56, 0.6);
+}
+
+/* Commons for "Statistics" */
+
+.stat-elements-wrapper{
+    padding: 100px 0px; 
+}
+
+.stat-element-image-box{
+    margin-bottom: 20px;
+}
+
+.stat-element-info-box h1{
+    font-size: 46px;
+    line-height: 1.2em;
+}
+
+.stat-element-info-box span{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* ============================================================ */
+/*-------------------  Get Free Quote (Coupon) -------------- */
+/* ============================================================ */
+
+
+.coupon-left-part-wrapper{
+    width: 48%;
+}
+
+.coupon-left-part-title-box h1{
+    font-size: 45px;
+    color: #001D38;
+    margin-bottom: 40px;
+}
+
+.coupon-left-part-form-field input{
+    width: 100%;      
+    margin-bottom: 30px;
+    padding: 10px 8px;
+    color: black;
+    border: none;  
+    border-bottom: 1px solid #E8E8E8;
+    box-sizing: border-box;
+}
+
+.coupon-left-part-form-field textarea{    
+    width: 100%;
+    height: 40px;  
+    margin: 70px 0px 30px 0px;
+    padding: 10px 8px;
+    color: black;
+    resize: none;          
+    border: none;
+    border-bottom: 1px solid #E8E8E8; 
+    box-sizing: border-box;   
+}
+
+.coupon-left-part-button-box button{
+    width: 100%;    
+    padding: 17px 0px;
+}
+
+.coupon-right-part-wrapper{
+    width: 48%;
+}
+
+.coupon-right-part-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* ============================================================ */
+/*--------------  Any Information Call Us (aicu)  - ----------- */
+/* ============================================================ */
+
+.info-bg-image{
+    background-image: url(https://colorlib.com/preview/theme/conbusi/img/banner/info_banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.info-bg-image-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 29, 56, 0.7);
+}
+
+.info-scripts-wrapper{
+    width: 100%;
+    padding: 150px 0px;
+}
+
+.info-scripts-wrapper h1{
+    font-size: 45px;
+    line-height: 72px;   
+    margin-bottom: 20px;
+}
+
+.info-scripts-wrapper p{
+    font-weight: 400; 
+    margin-bottom: 20px;
+}
+
+.info-scripts-wrapper button{
+    padding: 15px 40px;
+}
+
+
+
+/* ============================================================ */
+/*----------------------------  Footer  --------------------- */
+/* ============================================================ */
+
+/* From common */

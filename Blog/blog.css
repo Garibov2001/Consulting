@@ -1,0 +1,379 @@
+/* Commons */
+
+
+
+
+
+/* ============================================================ */
+/*------------------------- Header ------------------- */
+/* ============================================================== */
+#nav-bar{  
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    padding: 20px 0px;
+}
+
+.bg-color-nav-bar{   
+    background-color: #24252A;    
+}
+
+.nav-search-bar-wrapper{ 
+    position: relative;
+    font-weight: 400;
+}
+
+.nav-search-bar-wrapper input{ 
+    box-sizing: border-box;
+    width: 500px;
+    padding: 9px 0px 9px 15px;
+    color: #24252A;
+    border: 1px solid ;
+    border-radius: 30px;
+    outline: none;
+}
+
+.btn-search{   
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    width: 35px;
+    height: 35px;            
+    background-color: transparent;
+    color: #24252A;
+}
+
+.btn-search i{
+    font-size: 18px;
+    color: rgb(117, 117, 117);       
+}
+
+
+.nav-authentication-elements li a button{
+    padding: 9px 15px;
+}
+
+.header-slider{
+    width: 100%;
+    height: 520px;    
+    background-image: url('../images/bg-image2.png');
+    background-position: center;
+}
+
+.header-slider-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 29, 56, 0.3);
+}
+
+.slider-text-box{
+    transform: translateY(-10px);
+}
+
+.slider-text-box h1{
+    font-size: 60px;  
+    letter-spacing: 2px;
+    line-height: 76px;  
+}
+
+/* Commons for "Header" */
+
+.nav-authentication-elements li a{
+    margin-left: 20px;  /*Cunki sagda dayaniblar simmetriyani pozmamaq ucun*/
+    font-weight: 500;
+}
+
+
+
+
+/* ===================================================================== */
+/*--------------------------  blog-Left-side  ------------------------- */
+/* ====================================================================== */
+
+
+
+.blog-left-side{
+    width: 67%;
+    
+    /* background-color: royalblue; */
+}
+
+.blog-left-side-element-wrapper{
+    box-shadow: 0 10px 20px 0 rgba(221,221,221,.7);
+    margin-bottom: 50px;
+}
+
+
+.blog-left-side-element-image-wrapper{
+    position: relative;
+}
+
+.blog-left-side-element-image-wrapper img{
+    width: 100%;
+}
+
+
+.blog-left-side-element-event-time{
+    position: absolute;
+    left: 45px;
+    top: 330px;
+    display: inline-block;
+    background-color: #5DB2FF;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.blog-left-side-element-event-time h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.blog-left-side-element-event-time h2{
+    font-size: 18px;
+}
+
+.blog-left-side-element-scripts-wrapper{
+    padding: 65px 45px 45px 45px;
+}
+
+.blog-left-side-element-title-wrapper h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1f1f1f;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.blog-left-side-element-title-wrapper h1:hover{
+    color: #5DB2FF;
+}
+
+
+.blog-left-side-element-content-wrapper p{
+    color: #4d4d4d;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.blog-left-side-element-info-links-wrapper li{
+    margin-right: 20px;
+}
+
+
+.blog-left-side-element-info-links-wrapper i{
+    color: #666;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.blog-left-side-element-info-links-wrapper span{
+    color: #666;
+    font-weight: 400;
+}
+
+.blog-left-side-element-info-links-wrapper a:hover i{
+    color: #5DB2FF;
+}
+
+.blog-left-side-element-info-links-wrapper a:hover span{
+    color: #5DB2FF;
+}
+
+/* ============================================================ */
+/*--------------------  blog Right Side  ------------------------- */
+/* ============================================================ */
+
+.blog-right-side{
+    width: 30%;
+}
+
+
+.blog-right-side-search-box{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.blog-right-side-search-box input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #f0e9ff;
+    outline: none;
+    color: #999;
+    padding: 10px 0px 10px 20px;
+}
+
+
+.blog-right-side-search-box a{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 15px;
+}
+
+.blog-right-side-search-box a i{
+    color: #999;
+}
+
+.blog-right-side-button{
+    padding: 20px 0px;
+}
+
+/* Category */
+
+.blog-right-side-categ-widget-list li{
+    margin-bottom: 20px;
+}
+
+.blog-right-side-categ-widget-list a{
+    font-size: 16px;
+    font-weight: 300;
+    color: #4d4d4d;
+}
+
+.blog-right-side-categ-widget-list a:hover{    
+    color: #5DB2FF;
+}
+
+.blog-right-side-categ-widget-list a::after{
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(232, 229, 240)
+}
+
+/* Recent Posts */
+
+.blog-right-side-post-widget-elements-wrapper li{
+    margin-bottom: 20px;
+}
+
+.blog-right-side-post-content-wrapper{
+    margin-left: 20px;
+}
+
+.blog-right-side-post-content-box p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 6px;
+    color: #1f1f1f;
+    cursor: pointer;
+}
+
+.blog-right-side-post-content-box p:hover{    
+    color: #5DB2FF;
+}
+
+.blog-right-side-post-content-box span{
+    font-size: 14px;
+    line-height: 21px;
+    color: #4d4d4d;
+}
+
+
+/* Tag Clouds */
+
+
+.blog-right-side-tag-cloud-widget-elements-wrapper div{
+    font-size: 13px;
+    border: 1px solid #eee;
+    background: #fff;
+    padding: 6px 20px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    color: #666;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.blog-right-side-tag-cloud-widget-elements-wrapper div:hover{
+    border: 1px solid #5DB2FF;
+    background: #5DB2FF;
+    color: #fff
+}
+
+
+/* Instagram Feeds */
+
+
+.blog-right-side-instagram-feeds-widget-elements-row  {
+    margin-bottom: 10px;
+}
+
+.blog-right-side-insta-image-wrapper{
+    overflow: hidden;
+}
+
+.blog-right-side-insta-image-wrapper img{
+    transition: 0.3s;
+}
+
+.blog-right-side-insta-image-wrapper img:hover{
+    transform: scale(1.08);
+}
+
+/* Subscribe widget */
+
+.blog-right-side-email-box{
+    margin-bottom: 15px;
+}
+
+.blog-right-side-email-box input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #f0e9ff;
+    outline: none;
+    color: #999;
+    padding: 10px 0px 10px 20px;
+}
+
+
+/* Commons for blog right side */
+
+.blog-widget-wrapper{
+    box-sizing: border-box;
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+
+.blog-widget-title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1f1f1f;
+    margin-bottom: 40px;
+}
+
+.blog-widget-title::after{
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(232, 229, 240)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================ */
+/*--------------------------  FOOTER  ------------------------- */
+/* ============================================================ */
+
+/* from common */

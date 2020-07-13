@@ -1,0 +1,70 @@
+
+
+.container-standart-user-register{
+    width: 55%;
+    margin: 0 auto;
+}
+
+
+.auth-logo-wrapper img {
+    width: 110px;
+}
+
+
+.reg-main-name-and-last-name-wrapper{
+    margin-bottom: 15px;
+}
+
+.reg-main-name{
+    margin-right: 15px;
+}
+
+.reg-main-username-wrapper{
+    margin-bottom: 30px;
+}
+
+
+.reg-main-passwords-wrapper{
+    margin-bottom: 60px;
+}
+
+.reg-main-password{
+    margin-right: 15px;
+}
+
+
+.register-image-wrapper img{
+    width: 300px;
+}
+
+
+/* ============================================================ */
+/*------------------------- Log in Footer ---------------------- */
+/* ============================================================== */
+
+.reg-footer{
+    box-sizing: border-box;
+    padding: 20px 0px;
+}
+
+.reg-footer-language span,i{
+    color: black;
+}
+
+
+.reg-footer-help li a{
+    color: black;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

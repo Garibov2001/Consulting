@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body, h1, h2, h3, p, a, span, i, input, form, textarea, button, select{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+}
+
+.container{
+    width: 89%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+.container-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    padding: 0 15px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.section-distance-bottom{
+    margin-bottom: 90px;
+}
+
+
+/* ------------------- Buttons ------------------ */
+
+
+.btn{
+    background-color: #329BFA;
+    border-radius: 30px;
+    font-weight: 500;
+    outline: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #5ea9f0;
+    
+}
+
+.btn-2{
+    background: #5db2ff;
+    border: 1px solid #5db2ff;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+
+.btn-2:hover {    
+    background-color: white;
+    color: #5db2ff;
+    border: 1px solid #5db2ff;
+}
+
+
+
+
+
+/* ============================================================ */
+/*----------------------------  Footer  --------------------- */
+/* ============================================================ */
+
+.footer-top-wrapper{
+    padding: 70px 0px;
+}
+
+/* Consulting Info */
+
+.footer-top-cons-info-logo-box{
+    margin-bottom: 40px;
+}
+
+.footer-top-cons-info-scripts-box{
+    margin-bottom: 40px;
+}
+
+.footer-top-cons-info-scripts-box span{
+    font-size: 13px;
+    font-weight: 400;
+    color: #919191;
+    line-height: 28px;  
+    transition: 0.3s;
+}
+
+.footer-top-cons-info-scripts-box a span:hover{
+    color: #5db2ff;
+}
+
+.footer-top-cons-info-social-links i{
+    width: 15px;
+    color: #919191;
+    margin-right: 10px;
+    padding: 10px;    
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.footer-top-cons-info-social-links i:hover{
+    color: #fff;
+    background: #5db2ff;
+    border-color: transparent;
+}
+
+
+
+/* Consulting Subscribe */
+
+.footer-top-cons-subscribe-form-field{
+    font-weight: 400;
+    text-align: left;
+    color: #212529;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.footer-top-cons-subscribe-form-field input{
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    padding-left: 20px;
+    border: 1px solid #a09a9a;
+    border-radius: 30px;
+}
+
+
+.footer-top-cons-subscribe-form-field button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    align-items: flex-start;
+    height: 40px;
+    padding: 0 22px;
+    font-size: 13px;
+}
+
+
+.footer-top-cons-subscribe p{
+    color: #919191;
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;    
+}
+
+
+.footer_border{
+    border-top: 1px solid #e8e8e8;
+    padding-bottom: 30px;
+}
+
+
+.copy-right-text{
+    color: #919191;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+.copy-right{
+    margin-bottom: 30px;
+}
+
+/* Commons for "FOOTER" */
+
+.footer-top-row-distance{
+    margin-right: 90px;
+}
+
+.footer-top-title-style{
+    font-size: 18px;
+    font-weight: 500;
+    color: #001d38;
+    margin-bottom: 40px;
+}
+
+.footer-top-captions-box li{
+    margin: 22px 0px;
+}
+
+.footer-top-captions-box li a{
+    color: #919191;
+    font-weight: 400;
+    font-size: 13px;    
+    transition: 0.3s;
+}
+
+.footer-top-captions-box li a:hover{
+    color: #5db2ff;   
+}

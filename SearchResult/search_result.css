@@ -1,0 +1,278 @@
+
+/* ============================================================ */
+/*------------------------- Header ------------------- */
+/* ============================================================== */
+#nav-bar{  
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.bg-color-nav-bar{   
+    background-color: #24252A;    
+}
+
+.nav-search-bar-wrapper{ 
+    position: relative;
+    font-weight: 400;
+}
+
+.nav-search-bar-wrapper input{ 
+    box-sizing: border-box;
+    width: 500px;
+    padding: 9px 0px 9px 15px;
+    color: #24252A;
+    border: 1px solid ;
+    border-radius: 30px;
+    outline: none;
+}
+
+.btn-search{   
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    width: 35px;
+    height: 35px;            
+    background-color: transparent;
+    color: #24252A;
+}
+
+.btn-search i{
+    font-size: 18px;
+    color: rgb(117, 117, 117);       
+}
+
+
+.nav-authentication-elements li a button{
+    padding: 9px 15px;
+}
+
+/* Commons for "Header" */
+
+.nav-authentication-elements li a{
+    margin-left: 20px;  /*Cunki sagda dayaniblar simmetriyani pozmamaq ucun*/
+    font-weight: 500;
+}
+
+
+/* ============================================================ */
+/*------------------------- Search Result ---------------------- */
+/* ============================================================== */
+
+
+#section-search-results{
+    margin: 20px 0px;
+}
+
+.bg-color-search-results{
+    background-color: #d6edf6;
+}
+
+.search-result-header-text-box{
+    padding: 20px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+
+.search-result-header-text-box h1{
+    font-size: 20px;
+    color: rgb(55, 58, 60);
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.search-result-filter-by{
+    padding: 20px;
+}
+
+.search-result-filter-by li{
+    margin-right: 14px;
+}
+
+.search-result-filter-by span{
+    color: rgb(55, 58, 60);
+}
+
+
+/* Commons for "Search Result" */
+
+.search-result-filter-by select{
+    color: rgb(55, 58, 60);;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+
+/* ============================================================ */
+/*------------------------- Search Elements ---------------------- */
+/* ============================================================== */
+
+
+
+.container-search-elements{
+    /* background-color: #919191; */
+    width: 70%;
+    margin: 0 auto;
+}
+
+.search-element-wrapper{
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+
+.search-element-avatar-box{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+
+.search-element-avatar-box img{
+    width: 200px;
+    height: 200px;
+}
+
+.search-element-info-name{
+    margin-bottom: 10px;
+}
+
+.search-element-info-name h1{
+    font-size: 30px;
+    color: black;
+}
+
+
+.search-element-info-speciality{
+    margin-bottom: 10px;
+}
+
+.search-element-info-speciality p{
+    font-size: 20px;
+    color: #525252;
+}
+
+.search-element-info-experience{
+    margin-bottom: 10px;
+}
+
+.search-element-info-experience p{
+    font-size: 15px;
+    color: #525252;
+    font-weight: 500;
+}
+
+.search-element-info-rating{
+    margin-bottom: 10px;
+}
+
+.search-element-info-rating i{
+    color: #f6ba42;
+    padding-right: 7px;
+}
+
+.search-element-info-rating span{
+    color: black;
+    font-weight: 500;
+}
+
+
+.search-element-info-consultants p{
+    color: #525252;
+}
+
+.search-element-info-consultants span{
+    color: #525252;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+
+
+/* ============================================================ */
+/*------------------------- Footer ---------------------- */
+/* ============================================================== */
+
+
+.footer-top{
+    width: 100%;
+    height: 500px;
+}
+
+
+.footer-top-row{
+    width: 100%;
+}
+
+.footer-top-logo-box{
+    margin-bottom: 40px;
+}
+
+.footer-top-content-box{
+    margin-bottom: 40px;
+}
+
+
+.footer-top_title_box{
+    margin-top: 60px;
+}
+
+
+
+.newsletter_form{    
+    font-weight: 400;
+    text-align: left;
+    color: #212529;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.newsletter_form input{
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    padding-left: 20px;
+    border: 1px solid #a09a9a;
+    border-radius: 30px;
+}
+
+
+.btn_subscribe{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    align-items: flex-start;
+    height: 40px;
+    padding: 0 22px;
+    font-size: 13px;
+}
+
+
+.newsletter_text{
+    color: #919191;
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;    
+}
+
+
+.footer_border{
+    border-top: 1px solid #e8e8e8;
+    padding-bottom: 30px;
+}
+
+
+.copy-right-text{
+    color: #919191;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+.copy-right{
+    margin-bottom: 30px;
+}
